@@ -6,6 +6,7 @@ body {
 }
 .principal {
     background: #CCCCCC;
+    padding: 30px;
 }
 h1 {
     text-align: center;
@@ -20,11 +21,21 @@ em strong {
     color: red;
 }
 .beneficios {
-    background: #FFFFFF
+    background: #FFFFFF;
+    padding: 20px;
 }
 .itens {
     font-style: italic;
 }
 h2 {
     text-align: center;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagembeneficios {
+    width: 50%;
 }
