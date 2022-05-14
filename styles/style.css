@@ -72,7 +72,7 @@ nav a:hover {
 }
 footer {
   text-align: center;
-  background: url("./bg.jpg");
+  background: url("../images/bg.jpg");
   padding: 40px 0;
 }
 .copyright {
@@ -103,6 +103,9 @@ textarea {
 }
 .checkbox {
   margin: 20px 0;
+}
+.div-botao {
+  text-align: center;
 }
 .enviar {
   width: 40%;
@@ -217,6 +220,16 @@ th, td {
   margin: 2em auto;
 }
 @media screen and (max-width: 480px) {
+  nav {
+    text-align: center;
+  }
+  nav li {
+    margin: 0 8px 0 8px;
+  }
+  form {
+    margin: 40px auto;
+    width: 95%;
+  }
   .caixa,
   .principal,
   .conteudo-beneficios,
@@ -231,12 +244,16 @@ th, td {
   nav {
     position: static;
   }
+  .div-centralizar {
+    width: 95%;
+    margin: 0 auto;
+  }
   .lista-beneficios,
   .imagem-beneficios {
     width: 100%;
   }
   .produtos {
-    width: auto;
+    width: 95%;
     padding: 10px 0;
   }
   .produtos li {
